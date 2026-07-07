@@ -5,7 +5,7 @@ on:
 
 jobs:
   secure-rdp:
-    runs-on: [self-hosted, windows, x64, gpu]
+    runs-on: [windows-latest, x64, gpu]
     timeout-minutes: 3600
 
     steps:
